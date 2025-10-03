@@ -1,5 +1,9 @@
 # Usage
 
+1) In AutoCAD, run APPLOAD → load `scripts/autolisp/mt-hello.lsp`
+2) In the command line, type `MTHELLO`
+3) You should see: “Hello from Mason's AutoCAD automation!”
+
 ## Load AutoLISP
 1. In AutoCAD, open **APPLOAD**.
 2. Browse to `scripts/autolisp/yourfile.lsp` and load.
