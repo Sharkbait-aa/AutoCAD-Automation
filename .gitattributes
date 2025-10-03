@@ -1,0 +1,17 @@
+# Track large/binary CAD assets with LFS
+*.dwg filter=lfs diff=lfs merge=lfs -text
+*.dwt filter=lfs diff=lfs merge=lfs -text
+*.dws filter=lfs diff=lfs merge=lfs -text
+*.dxf filter=lfs diff=lfs merge=lfs -text
+
+# Optional: other CAD
+*.rvt filter=lfs diff=lfs merge=lfs -text
+*.nwd filter=lfs diff=lfs merge=lfs -text
+*.nwf filter=lfs diff=lfs merge=lfs -text
+*.nwc filter=lfs diff=lfs merge=lfs -text
+*.iam filter=lfs diff=lfs merge=lfs -text
+*.ipt filter=lfs diff=lfs merge=lfs -text
+*.idw filter=lfs diff=lfs merge=lfs -text
+
+# Keep text files normalized
+* text=auto

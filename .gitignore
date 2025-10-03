@@ -1,0 +1,50 @@
+# --- AutoCAD & CAD binaries (use LFS for long-term storage) ---
+*.bak
+*.sv$
+
+# Core CAD formats (tracked by LFS via .gitattributes)
+# *.dwg
+# *.dwt
+# *.dws
+# *.dxf
+
+# Autodesk/Inventor/Revit/Navisworks (optional; track by LFS if used)
+# *.rvt
+# *.nwd
+# *.nwf
+# *.nwc
+# *.iam
+# *.ipt
+# *.idw
+
+# Plot & support
+*.plt
+*.pc3
+*.pmp
+
+# Temporary/lock/cache
+*.dwl
+*.dwl2
+*.log
+~$*
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Build output
+/dist/
+/bin/
+/obj/
+*.user
+*.suo
+
+# Python
+**/__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Node & tooling (if used)
+node_modules/
+*.lock
